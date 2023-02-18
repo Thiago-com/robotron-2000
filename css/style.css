@@ -65,6 +65,27 @@ main {
     height: 80%;
 }
 
+/************************* Cores *****************/
+
+.alterar {
+    margin: 2px;
+    width: 200px;
+}
+
+.botoes {
+   position: relative;
+   right: 5%;
+   bottom: 10%;
+   display: flex;
+}
+
+.cores {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 /****************************** Equipamentos *****/
 
 .equipamentos {
@@ -133,7 +154,7 @@ main {
 
 .producao {
     margin-top: 1em;
-    font-size: 2em;
+    font-size: 1.5em;
     text-transform: uppercase;
     padding: 0.2em 1em;
     float: right;
